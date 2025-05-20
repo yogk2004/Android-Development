@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Journey Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Journey Route (Start to Destination) -->
+    <TextView
+        android:id="@+id/tv_journey_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:text="From: - To: -"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp" />
+
+    <!-- RecyclerView for Lazy List (Reduced Height) -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_stops"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_above="@id/progress_section"
+        android:layout_below="@id/tv_journey_route"
+        android:layout_marginBottom="16dp"
+        android:background="#1e1e1e" />
+
+    <!-- Progress Section -->
+    <LinearLayout
+        android:id="@+id/progress_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="#1e1e1e">
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:max="100"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/custom_progress"/>
+
+        <!-- Progress Text -->
+        <TextView
+            android:id="@+id/tv_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="0% Completed"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Total Distance Covered -->
+        <TextView
+            android:id="@+id/tv_distance_covered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Total Distance Covered: 0 km"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Total Distance Left -->
+        <TextView
+            android:id="@+id/tv_distance_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Total Distance Left: 0 km"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF" />
+
+        <!-- Button Row Layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <!-- Unit Switch Button -->
+            <Button
+                android:id="@+id/btn_switch_unit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="Switch to the Miles"
+                android:backgroundTint="#1e90ff"
+                android:textColor="#FFFFFF" />
+
+            <!-- Next Stop Button -->
+            <Button
+                android:id="@+id/btn_next_stop"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Next Stop Reached"
+                android:backgroundTint="#1e90ff"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

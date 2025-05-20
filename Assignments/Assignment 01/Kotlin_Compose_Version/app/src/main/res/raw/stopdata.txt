@@ -1,0 +1,106 @@
+[
+  {
+    "SOURCE": "New York",
+    "DESTINATION": "Toronto",
+    "DISTANCE_KM": 800,
+    "DISTANCE_MI": 497,
+    "FLIGHT_TIME_HRS": 1.5,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Toronto",
+    "DESTINATION": "London",
+    "DISTANCE_KM": 5700,
+    "DISTANCE_MI": 3542,
+    "FLIGHT_TIME_HRS": 7.0,
+    "VISA_REQUIREMENT": "Transit Visa Required"
+  },
+  {
+    "SOURCE": "London",
+    "DESTINATION": "Paris",
+    "DISTANCE_KM": 340,
+    "DISTANCE_MI": 211,
+    "FLIGHT_TIME_HRS": 1.0,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Paris",
+    "DESTINATION": "Berlin",
+    "DISTANCE_KM": 880,
+    "DISTANCE_MI": 547,
+    "FLIGHT_TIME_HRS": 2.0,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Berlin",
+    "DESTINATION": "Moscow",
+    "DISTANCE_KM": 1600,
+    "DISTANCE_MI": 994,
+    "FLIGHT_TIME_HRS": 2.5,
+    "VISA_REQUIREMENT": "Transit Visa Required"
+  },
+  {
+    "SOURCE": "Moscow",
+    "DESTINATION": "Dubai",
+    "DISTANCE_KM": 3700,
+    "DISTANCE_MI": 2299,
+    "FLIGHT_TIME_HRS": 5.0,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Dubai",
+    "DESTINATION": "Mumbai",
+    "DISTANCE_KM": 1920,
+    "DISTANCE_MI": 1193,
+    "FLIGHT_TIME_HRS": 3.0,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Mumbai",
+    "DESTINATION": "Singapore",
+    "DISTANCE_KM": 3920,
+    "DISTANCE_MI": 2436,
+    "FLIGHT_TIME_HRS": 5.5,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Singapore",
+    "DESTINATION": "Sydney",
+    "DISTANCE_KM": 6300,
+    "DISTANCE_MI": 3915,
+    "FLIGHT_TIME_HRS": 8.0,
+    "VISA_REQUIREMENT": "Transit Visa Required"
+  },
+  {
+    "SOURCE": "Sydney",
+    "DESTINATION": "Tokyo",
+    "DISTANCE_KM": 7800,
+    "DISTANCE_MI": 4847,
+    "FLIGHT_TIME_HRS": 10.0,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Tokyo",
+    "DESTINATION": "San Francisco",
+    "DISTANCE_KM": 8300,
+    "DISTANCE_MI": 5157,
+    "FLIGHT_TIME_HRS": 10.5,
+    "VISA_REQUIREMENT": "Transit Visa Required"
+  },
+  {
+    "SOURCE": "San Francisco",
+    "DESTINATION": "Los Angeles",
+    "DISTANCE_KM": 600,
+    "DISTANCE_MI": 373,
+    "FLIGHT_TIME_HRS": 1.5,
+    "VISA_REQUIREMENT": "No Visa Required"
+  },
+  {
+    "SOURCE": "Los Angeles",
+    "DESTINATION": "Mexico City",
+    "DISTANCE_KM": 2500,
+    "DISTANCE_MI": 1553,
+    "FLIGHT_TIME_HRS": 4.5,
+    "VISA_REQUIREMENT": "No Visa Required"
+  }
+]

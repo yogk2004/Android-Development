@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Assignment3" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#D81B60</item>
+        <item name="colorPrimaryVariant">#AD1457</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#F06292</item>
+        <item name="colorSecondaryVariant">#EC407A</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+    </style>
+</resources>
